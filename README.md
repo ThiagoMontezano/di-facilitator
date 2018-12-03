@@ -11,4 +11,4 @@ Please make sure to create examples as appropriate.
 [MIT](https://choosealicense.com/licenses/mit/)
 
 - [License](LICENSE.md)
-- [NuGet Package](https://www.nuget.org/packages/di-facilitator.Json)
+- [NuGet Package](https://www.nuget.org/packages/di-facilitator)
