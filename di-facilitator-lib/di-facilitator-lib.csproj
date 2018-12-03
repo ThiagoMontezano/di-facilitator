@@ -3,6 +3,21 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>di_facilitator</RootNamespace>
+    <Description>Simple library to facilitate dependency injection in .Net Core using attributes (annotations).</Description>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>di-facilitator</PackageId>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>Thiago Montezano</Authors>
+    <Owners>Thiago Montezano</Owners>
+    <PackageProjectUrl>https://github.com/ThiagoMontezano/di-facilitator</PackageProjectUrl>
+    <PackageReleaseNotes>Here are the release notes for the DI-Facilitator versions.
+
+We do not yet have release notes for the stable version of the DI-Facilitator.
+
+0.0.1 (development)</PackageReleaseNotes>
+    <Summary>Simple library to facilitate dependency injection in .Net Core using attributes (annotations).</Summary>
+    <PackageTags>dependencyinjection, dependency injection, DI, di-facilitator</PackageTags>
+    <Title>di-facilitator</Title>
   </PropertyGroup>
 
   <ItemGroup>
