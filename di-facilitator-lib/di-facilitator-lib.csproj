@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>di_facilitator</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="di-facilitator-sample\appsettings.Development.json" />
+    <None Remove="di-facilitator-sample\Properties\launchSettings.json" />
+    <None Remove="di-facilitator-sample\obj\di-facilitator-sample.csproj.nuget.g.props" />
+    <None Remove="di-facilitator-sample\obj\di-facilitator-sample.csproj.nuget.g.targets" />
+    <None Remove="di-facilitator-sample\obj\project.assets.json" />
+    <None Remove="di-facilitator-sample\obj\di-facilitator-sample.csproj.nuget.cache" />
+    <None Remove="di-facilitator-sample\obj\Debug\netcoreapp2.1\di-facilitator-sample.assets.cache" />
+    <None Remove="di-facilitator-sample\obj\Debug\netcoreapp2.1\di-facilitator-sample.csprojAssemblyReference.cache" />
+    <None Remove="di-facilitator-sample\obj\Debug\netcoreapp2.1\di-facilitator-sample.RazorAssemblyInfo.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="di-facilitator-sample\Program.cs" />
+    <Compile Remove="di-facilitator-sample\Startup.cs" />
+    <Compile Remove="di-facilitator-sample\obj\Debug\netcoreapp2.1\di-facilitator-sample.RazorAssemblyInfo.cs" />
+    <Compile Remove="di-facilitator-sample\Entities\ISimpleText.cs" />
+    <Compile Remove="di-facilitator-sample\Entities\SingletonSimpleText.cs" />
+    <Compile Remove="Entities\TypeInjection.cs" />
+    <Compile Remove="Entities\EmptyClass.cs" />
+  </ItemGroup>
+</Project>
